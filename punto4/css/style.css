@@ -1,0 +1,84 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    color: #823ce5;
+}
+
+#taskForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#taskInput {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px; /* Reducir el padding */
+    background-color: #823ce5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+}
+
+button:hover {
+    background-color: rgb(163, 46, 241);
+}
+
+#BorarTodoBtn {
+    margin-top: 20px; /* Mover el botón hacia abajo */
+    background-color: #ff69b4; /* Fucsia */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#BorarTodoBtn:hover {
+    background-color: #d84797;
+}
+
+.editButton {
+    background-color: #e6e6fa; /* Lila */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+}
+
+.editButton:hover {
+    background-color: #d8bfd8;
+}
+
+#taskList {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#listaTareas {
+    padding-left: 20px; /* Indentar la lista */
+    list-style: none; /* Eliminar los estilos de la lista */
+}
+
+#listaTareas li {
+    margin-bottom: 10px; /* Agregar margen inferior */
+    display: block; /* Mostrar cada elemento en un renglón separado */
+}
